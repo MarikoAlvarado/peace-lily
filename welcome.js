@@ -1,4 +1,4 @@
-var userName = prompt('Please enter your name?');
+var userName = prompt('Hi! What is your name?');
 
 if (userName == 'mariko'){
     document.write('Welcome Planthead ' + userName)

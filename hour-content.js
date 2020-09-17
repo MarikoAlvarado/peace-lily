@@ -1,4 +1,4 @@
-var hourNow = prompt('What time is it? 1-12'); 
+var hourNow = prompt('What time is it?'); 
 var greeting;
 
 if (hourNow > 1 && hourNow < 6) {
@@ -6,7 +6,7 @@ if (hourNow > 1 && hourNow < 6) {
 } else if (hourNow > 6 && hourNow < 12) {
   greeting = 'Good Evening!';
 } else {
-  greeting = 'Something went wrong!';
+  greeting = 'What is time?!';
 }
 
 document.write(greeting);
