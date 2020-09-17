@@ -5,6 +5,14 @@ body{
 
 }
 
+div{
+
+    max-width: 500px;
+    margin: auto;
+
+
+}
+
 header{
 
 
@@ -33,6 +41,7 @@ ul{
 
 
     background-color: rgb(43, 66, 43);
+    align-content: center;
 
 
 }
@@ -43,7 +52,7 @@ nav{
 
 
     padding: 5px;
-    text-align: left;
+    text-align: center;
     
 
 
@@ -51,11 +60,12 @@ nav{
 
 
 li{
-
+    
     color: rgb(248, 246, 246);
     display: inline-block;
     border: black solid;
     padding: 10px;
+    align-content: center;
     
     
 
